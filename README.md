@@ -64,12 +64,9 @@
 
 ---
 
-<h2 align="center">🏆 Battle Tested (Achievements)</h2>
-
 <p align="center">
   <img src="./achievements.svg" width="90%" alt="Achievements"/>
 </p>
-
 
 ---
 
