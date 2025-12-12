@@ -3,7 +3,7 @@
   <img src="assets/banner.png" alt="banner" width="100%" style="max-height:320px; object-fit:cover; filter: brightness(0.8) contrast(1.2)"/>
 </p>
 
-<h1 align="center">Eng-Mohamed Faisal / <a href="https://github.com/<YOUR_USERNAME>"><strong><YOUR_USERNAME></strong></a></h1>
+<h1 align="center">Eng-Mohamed Faisal<a href="https://github.com/<YOUR_USERNAME>"><strong><YOUR_USERNAME></strong></a></h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Role-AI%20Engineer-0a0?style=for-the-badge&logo=python" alt="role"/>
