@@ -1,100 +1,174 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1000" height="360" viewBox="0 0 1000 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
   <defs>
-    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2ff"/>
-      <stop offset="100%" stop-color="#bd00ff"/>
+    <linearGradient id="bgGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="1" stop-color="#05060a"/>
     </linearGradient>
-    
-    <!-- Badge Templates -->
-    <g id="python-badge">
-      <rect x="0" y="0" width="120" height="35" rx="17.5" fill="#3776AB"/>
-      <text x="60" y="22" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">Python</text>
-    </g>
-    
-    <g id="pytorch-badge">
-      <rect x="0" y="0" width="120" height="35" rx="17.5" fill="#EE4C2C"/>
-      <text x="60" y="22" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">PyTorch</text>
-    </g>
-    
-    <g id="tensorflow-badge">
-      <rect x="0" y="0" width="120" height="35" rx="17.5" fill="#FF6F00"/>
-      <text x="60" y="22" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">TensorFlow</text>
-    </g>
-    
-    <g id="cpp-badge">
-      <rect x="0" y="0" width="120" height="35" rx="17.5" fill="#00599C"/>
-      <text x="60" y="22" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">C++</text>
-    </g>
-    
-    <g id="java-badge">
-      <rect x="0" y="0" width="120" height="35" rx="17.5" fill="#ED8B00"/>
-      <text x="60" y="22" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">Java</text>
-    </g>
-    
-    <g id="git-badge">
-      <rect x="0" y="0" width="120" height="35" rx="17.5" fill="#E44C30"/>
-      <text x="60" y="22" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">Git</text>
-    </g>
+
+    <linearGradient id="neon" x1="0" x2="1">
+      <stop offset="0" stop-color="#6e44ff"/>
+      <stop offset="1" stop-color="#00f2ff"/>
+    </linearGradient>
+
+    <!-- Glow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Card shadow -->
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <style type="text/css"><![CDATA[
+      .title { font: 700 28px 'Segoe UI', Roboto, sans-serif; fill: url(#neon); filter: url(#glow); }
+      .subtitle { font: 500 14px 'Segoe UI', Roboto, sans-serif; fill: #9aa3b2; }
+      .colTitle { font: 700 16px 'Segoe UI', Roboto, sans-serif; fill: #dfe9ff; }
+      .badgeText { font: 700 13px 'Segoe UI', Roboto, sans-serif; fill: white; }
+      .tagSmall { font: 600 11px 'Segoe UI', Roboto, sans-serif; fill: #d9e6ff; }
+    ]]></style>
   </defs>
-  
-  <!-- Title -->
-  <text x="400" y="50" text-anchor="middle" fill="url(#techGradient)" font-family="Arial" font-size="28" font-weight="bold">
-    🛠️ Technological Arsenal
-  </text>
-  
-  <!-- AI/ML Section -->
-  <text x="400" y="100" text-anchor="middle" fill="#00ffff" font-family="Arial" font-size="18" font-weight="bold">
-    AI & Machine Learning
-  </text>
-  
-  <g transform="translate(200, 130)">
-    <use xlink:href="#python-badge"/>
+
+  <!-- background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+
+  <!-- header -->
+  <g transform="translate(48,34)">
+    <text class="title">🛠️ The Arsenal</text>
+    <text x="0" y="36" class="subtitle">Core & AI  •  Languages  •  Tools & Platforms</text>
   </g>
-  
-  <g transform="translate(340, 130)">
-    <use xlink:href="#pytorch-badge"/>
+
+  <!-- three columns container -->
+  <g transform="translate(40,90)">
+
+    <!-- Column 1: Core & AI -->
+    <g transform="translate(0,0)">
+      <text class="colTitle" x="0" y="0">Core &amp; AI</text>
+
+      <!-- card 1: PyTorch -->
+      <g transform="translate(0,18)">
+        <rect x="0" y="6" rx="10" ry="10" width="300" height="54" fill="url(#neon)" opacity="0.12" />
+        <rect x="0" y="6" rx="10" ry="10" width="300" height="54" fill="none" stroke="#2f2b66" stroke-width="1"/>
+        <g transform="translate(14,14)">
+          <circle cx="22" cy="14" r="18" fill="#ff6c3b" />
+          <text class="badgeText" x="46" y="21">PyTorch</text>
+          <text class="tagSmall" x="46" y="36">Deep learning</text>
+        </g>
+      </g>
+
+      <!-- card 2: TensorFlow -->
+      <g transform="translate(0,84)">
+        <rect x="0" y="6" rx="10" ry="10" width="300" height="54" fill="url(#neon)" opacity="0.10" />
+        <rect x="0" y="6" rx="10" ry="10" width="300" height="54" fill="none" stroke="#2f2b66" stroke-width="1"/>
+        <g transform="translate(14,14)">
+          <rect x="4" y="0" width="36" height="28" rx="6" ry="6" fill="#ff8a00"/>
+          <text class="badgeText" x="46" y="21">TensorFlow</text>
+          <text class="tagSmall" x="46" y="36">Neural networks</text>
+        </g>
+      </g>
+
+      <!-- card 3: Scikit-Learn -->
+      <g transform="translate(0,150)">
+        <rect x="0" y="6" rx="10" ry="10" width="300" height="54" fill="url(#neon)" opacity="0.08" />
+        <rect x="0" y="6" rx="10" ry="10" width="300" height="54" fill="none" stroke="#2f2b66" stroke-width="1"/>
+        <g transform="translate(14,14)">
+          <rect x="6" y="0" width="36" height="28" rx="6" ry="6" fill="#f6a21d"/>
+          <text class="badgeText" x="46" y="21">Scikit-Learn</text>
+          <text class="tagSmall" x="46" y="36">ML tools</text>
+        </g>
+      </g>
+
+    </g>
+
+    <!-- Column 2: Languages -->
+    <g transform="translate(360,0)">
+      <text class="colTitle" x="0" y="0">Languages</text>
+
+      <!-- Python -->
+      <g transform="translate(0,18)">
+        <rect x="0" y="6" rx="10" ry="10" width="300" height="54" fill="url(#neon)" opacity="0.12" />
+        <rect x="0" y="6" rx="10" ry="10" width="300" height="54" fill="none" stroke="#2f2b66" stroke-width="1"/>
+        <g transform="translate(14,14)">
+          <circle cx="22" cy="14" r="18" fill="#3776ab"/>
+          <text class="badgeText" x="46" y="21">Python</text>
+          <text class="tagSmall" x="46" y="36">Scripting &amp; ML</text>
+        </g>
+      </g>
+
+      <!-- C++ -->
+      <g transform="translate(0,84)">
+        <rect x="0" y="6" rx="10" ry="10" width="300" height="54" fill="url(#neon)" opacity="0.10" />
+        <rect x="0" y="6" rx="10" ry="10" width="300" height="54" fill="none" stroke="#2f2b66" stroke-width="1"/>
+        <g transform="translate(14,14)">
+          <rect x="6" y="0" width="36" height="28" rx="6" ry="6" fill="#00599c"/>
+          <text class="badgeText" x="46" y="21">C++</text>
+          <text class="tagSmall" x="46" y="36">Performance</text>
+        </g>
+      </g>
+
+      <!-- Java -->
+      <g transform="translate(0,150)">
+        <rect x="0" y="6" rx="10" ry="10" width="300" height="54" fill="url(#neon)" opacity="0.08" />
+        <rect x="0" y="6" rx="10" ry="10" width="300" height="54" fill="none" stroke="#2f2b66" stroke-width="1"/>
+        <g transform="translate(14,14)">
+          <rect x="6" y="0" width="36" height="28" rx="6" ry="6" fill="#ed8b00"/>
+          <text class="badgeText" x="46" y="21">Java</text>
+          <text class="tagSmall" x="46" y="36">Android &amp; OOP</text>
+        </g>
+      </g>
+
+    </g>
+
+    <!-- Column 3: Tools & Platforms -->
+    <g transform="translate(720,0)">
+      <text class="colTitle" x="0" y="0">Tools &amp; Platforms</text>
+
+      <!-- Git -->
+      <g transform="translate(0,18)">
+        <rect x="0" y="6" rx="10" ry="10" width="260" height="54" fill="url(#neon)" opacity="0.12" />
+        <rect x="0" y="6" rx="10" ry="10" width="260" height="54" fill="none" stroke="#2f2b66" stroke-width="1"/>
+        <g transform="translate(14,14)">
+          <rect x="4" y="0" width="36" height="28" rx="6" ry="6" fill="#e84e31"/>
+          <text class="badgeText" x="46" y="21">Git</text>
+          <text class="tagSmall" x="46" y="36">Version control</text>
+        </g>
+      </g>
+
+      <!-- Linux -->
+      <g transform="translate(0,84)">
+        <rect x="0" y="6" rx="10" ry="10" width="260" height="54" fill="url(#neon)" opacity="0.10" />
+        <rect x="0" y="6" rx="10" ry="10" width="260" height="54" fill="none" stroke="#2f2b66" stroke-width="1"/>
+        <g transform="translate(14,14)">
+          <circle cx="22" cy="14" r="18" fill="#f0c419"/>
+          <text class="badgeText" x="46" y="21" fill="#0b0b0b">Linux</text>
+          <text class="tagSmall" x="46" y="36">CLI &amp; servers</text>
+        </g>
+      </g>
+
+      <!-- VS Code -->
+      <g transform="translate(0,150)">
+        <rect x="0" y="6" rx="10" ry="10" width="260" height="54" fill="url(#neon)" opacity="0.08" />
+        <rect x="0" y="6" rx="10" ry="10" width="260" height="54" fill="none" stroke="#2f2b66" stroke-width="1"/>
+        <g transform="translate(14,14)">
+          <rect x="6" y="0" width="36" height="28" rx="6" ry="6" fill="#0078d4"/>
+          <text class="badgeText" x="46" y="21">VS Code</text>
+          <text class="tagSmall" x="46" y="36">IDE</text>
+        </g>
+      </g>
+
+    </g>
+
   </g>
-  
-  <g transform="translate(480, 130)">
-    <use xlink:href="#tensorflow-badge"/>
+
+  <!-- footer neon line -->
+  <g transform="translate(40,320)">
+    <rect width="920" height="2" fill="url(#neon)" opacity="0.9" filter="url(#glow)"/>
+    <text x="0" y="18" class="tagSmall">Last updated • keeping the stack lean &amp; focused</text>
   </g>
-  
-  <!-- Languages Section -->
-  <text x="400" y="200" text-anchor="middle" fill="#00ffff" font-family="Arial" font-size="18" font-weight="bold">
-    Programming Languages
-  </text>
-  
-  <g transform="translate(200, 230)">
-    <use xlink:href="#cpp-badge"/>
-  </g>
-  
-  <g transform="translate(340, 230)">
-    <use xlink:href="#java-badge"/>
-  </g>
-  
-  <g transform="translate(480, 230)">
-    <use xlink:href="#git-badge"/>
-  </g>
-  
-  <!-- Animation for badges -->
-  <animateTransform 
-    xlink:href="#python-badge"
-    attributeName="transform"
-    type="translate"
-    values="0,0; 0,-3; 0,0"
-    dur="2s"
-    repeatCount="indefinite"
-    begin="0s"
-  />
-  
-  <animateTransform 
-    xlink:href="#pytorch-badge"
-    attributeName="transform"
-    type="translate"
-    values="0,0; 0,-3; 0,0"
-    dur="2s"
-    repeatCount="indefinite"
-    begin="0.5s"
-  />
 </svg>
