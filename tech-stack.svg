@@ -1,108 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1000" height="520" viewBox="0 0 1000 520"
+<svg width="800" height="350" viewBox="0 0 800 350"
      xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Animated gradient background -->
   <defs>
-    <linearGradient id="grad-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0a0f24">
-        <animate attributeName="stop-color"
-                 values="#0a0f24; #1a0a2e; #0e1430; #0a0f24"
-                 dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#1a0a2e">
-        <animate attributeName="stop-color"
-                 values="#1a0a2e; #2a125d; #150b35; #1a0a2e"
-                 dur="8s" repeatCount="indefinite"/>
-      </stop>
+    <!-- Background Cyber Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020611"/>
+      <stop offset="50%" stop-color="#0a0f24"/>
+      <stop offset="100%" stop-color="#1a0a2e"/>
     </linearGradient>
 
-    <!-- Card gradient with soft rotation animation -->
-    <linearGradient id="card-grad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#10172b">
-        <animate attributeName="stop-color"
-                 values="#10172b; #1b1440; #10172b"
-                 dur="7s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#241445">
-        <animate attributeName="stop-color"
-                 values="#241445; #331b6b; #241445"
-                 dur="7s" repeatCount="indefinite"/>
-      </stop>
+    <!-- Cyber line gradient -->
+    <linearGradient id="cyber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2ff"/>
+      <stop offset="50%" stop-color="#bd00ff"/>
+      <stop offset="100%" stop-color="#00f2ff"/>
     </linearGradient>
+
+    <!-- Card dark gradient -->
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f1f"/>
+      <stop offset="100%" stop-color="#1a1335"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#00f2ff" flood-opacity="0.35" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
-  <rect width="100%" height="100%" fill="url(#grad-bg)" />
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg)" />
 
   <style>
-    .title {
-      font: 700 32px 'Segoe UI', sans-serif;
-      fill: #d9e6ff;
-    }
-    .subtitle {
-      font: 500 16px 'Segoe UI', sans-serif;
-      fill: #9bb6ff;
-    }
-    .col-title {
-      font: 700 18px 'Segoe UI', sans-serif;
-      fill: #d1d9ff;
-    }
-    .item {
-      font: 500 14px 'Segoe UI', sans-serif;
-      fill: #c4d2ff;
-    }
+    .title { font: 700 26px 'Segoe UI', sans-serif; fill: #e2f3ff; }
+    .subtitle { font: 500 14px 'Segoe UI', sans-serif; fill: #b4ceff; }
+    .col-title { font: 700 16px 'Segoe UI', sans-serif; fill: #9bd2ff; }
+    .item { font: 500 13px 'Segoe UI', sans-serif; fill: #d6e4ff; }
   </style>
 
-  <!-- Main animated card -->
-  <rect x="40" y="40" width="920" height="440"
-        fill="url(#card-grad)"
-        rx="22"
-        style="filter: drop-shadow(0 8px 28px rgba(0,0,0,0.55));" />
+  <!-- Main Card -->
+  <rect x="30" y="30" width="740" height="290" rx="16"
+        fill="url(#card)"
+        stroke="url(#cyber)" stroke-width="1.5"
+        filter="url(#glow)" />
 
   <!-- Title -->
-  <text x="70" y="95" class="title">The Arsenal (Tech Stack)</text>
-  <text x="70" y="125" class="subtitle">Core and AI • Languages • Tools</text>
+  <text x="60" y="80" class="title">The Arsenal (Tech Stack)</text>
+  <text x="60" y="105" class="subtitle">Core and AI • Languages • Tools</text>
 
   <!-- Column 1 -->
-  <text x="70" y="170" class="col-title">Core and AI</text>
+  <text x="60" y="145" class="col-title">Core and AI</text>
   <g>
-    <circle cx="75" cy="195" r="4" fill="#7c5cff"/>
-    <text x="90" y="198" class="item">Machine Learning</text>
+    <circle cx="65" cy="165" r="4" fill="url(#cyber)" />
+    <text x="80" y="168" class="item">Machine Learning</text>
 
-    <circle cx="75" cy="222" r="4" fill="#7c5cff"/>
-    <text x="90" y="225" class="item">Deep Learning</text>
+    <circle cx="65" cy="188" r="4" fill="url(#cyber)" />
+    <text x="80" y="191" class="item">Deep Learning</text>
 
-    <circle cx="75" cy="249" r="4" fill="#7c5cff"/>
-    <text x="90" y="252" class="item">Data Preprocessing</text>
+    <circle cx="65" cy="211" r="4" fill="url(#cyber)" />
+    <text x="80" y="214" class="item">Data Preprocessing</text>
 
-    <circle cx="75" cy="276" r="4" fill="#7c5cff"/>
-    <text x="90" y="279" class="item">Model Evaluation</text>
+    <circle cx="65" cy="234" r="4" fill="url(#cyber)" />
+    <text x="80" y="237" class="item">Model Evaluation</text>
 
-    <circle cx="75" cy="303" r="4" fill="#7c5cff"/>
-    <text x="90" y="306" class="item">Prompt Engineering</text>
+    <circle cx="65" cy="257" r="4" fill="url(#cyber)" />
+    <text x="80" y="260" class="item">Prompt Engineering</text>
   </g>
 
   <!-- Column 2 -->
-  <text x="380" y="170" class="col-title">Frameworks</text>
+  <text x="330" y="145" class="col-title">Frameworks</text>
   <g>
-    <circle cx="385" cy="195" r="4" fill="#4de0c6"/>
-    <text x="400" y="198" class="item">Scikit-learn</text>
+    <circle cx="335" cy="165" r="4" fill="#4de0c6" />
+    <text x="350" y="168" class="item">Scikit-learn</text>
 
-    <circle cx="385" cy="222" r="4" fill="#4de0c6"/>
-    <text x="400" y="225" class="item">XGBoost / LightGBM</text>
+    <circle cx="335" cy="188" r="4" fill="#4de0c6" />
+    <text x="350" y="191" class="item">XGBoost / LightGBM</text>
   </g>
 
   <!-- Column 3 -->
-  <text x="690" y="170" class="col-title">Languages</text>
+  <text x="590" y="145" class="col-title">Languages</text>
   <g>
-    <circle cx="695" cy="195" r="4" fill="#58a6ff"/>
-    <text x="710" y="198" class="item">Python</text>
+    <circle cx="595" cy="165" r="4" fill="#58a6ff" />
+    <text x="610" y="168" class="item">Python</text>
 
-    <circle cx="695" cy="222" r="4" fill="#58a6ff"/>
-    <text x="710" y="225" class="item">Java</text>
+    <circle cx="595" cy="188" r="4" fill="#58a6ff" />
+    <text x="610" y="191" class="item">Java</text>
 
-    <circle cx="695" cy="249" r="4" fill="#58a6ff"/>
-    <text x="710" y="252" class="item">C++</text>
+    <circle cx="595" cy="211" r="4" fill="#58a6ff" />
+    <text x="610" y="214" class="item">C++</text>
   </g>
+
+  <!-- Cyber Particles -->
+  <circle cx="50" cy="220" r="2" fill="#00f2ff" opacity="0.7">
+    <animate attributeName="cy" values="220;215;220" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="760" cy="110" r="3" fill="#bd00ff" opacity="0.7">
+    <animate attributeName="cy" values="110;115;110" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
 
 </svg>
