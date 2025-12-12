@@ -73,12 +73,9 @@ I aim to build an **industry-ready skill set**, combining academic knowledge wit
 
 <form action="mailto:your.email@example.com" method="post" enctype="text/plain" style="max-width:500px; margin:auto;">
   <label for="name">Name: Mohamed Faisal</label><br>
-  <input type="text" id="name" name="name" required style="width:100%; padding:8px;"><br><br>
+  <input type="text" id="name" name="name" required style="width:100%; padding:8px;"><br>
   <label for="email">Email: engmohamedfaisal06@gmail.com</label><br>
   <input type="email" id="email" name="email" required style="width:100%; padding:8px;"><br><br>
-  <label for="message">Message:</label><br>
-  <textarea id="message" name="message" rows="4" required style="width:100%; padding:8px;"></textarea><br><br>
-  <input type="submit" value="Send" style="background-color:#0a0; color:white; padding:10px 20px; border:none; cursor:pointer;">
 </form>
 
 <p align="center">
