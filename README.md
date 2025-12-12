@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/typing.gif" alt="typing effect" width="680"/>
+  <img src="typing.gif" alt="typing effect" width="680"/>
 </p>
 
 ---
