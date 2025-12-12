@@ -1,25 +1,80 @@
-<svg width="100%" height="180" viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="100%" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Gradient Definition -->
   <defs>
-    <linearGradient id="grad">
-      <stop offset="0%" stop-color="#00eaff">
-        <animate attributeName="stop-color" values="#00eaff; #007bff; #6f00ff; #00eaff" dur="6s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#6f00ff">
-        <animate attributeName="stop-color" values="#6f00ff; #00eaff; #007bff; #6f00ff" dur="6s" repeatCount="indefinite"/>
-      </stop>
+    <!-- Gradient Colors -->
+    <linearGradient id="cyberGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4cc9f0"/>
+      <stop offset="100%" stop-color="#7209b7"/>
     </linearGradient>
+
+    <!-- Shine Gradient (White moving light) -->
+    <linearGradient id="shineGradient">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)" />
+      <stop offset="50%" stop-color="rgba(255,255,255,0.9)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+      <animate attributeName="x1" values="-100%; 200%" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0%; 300%" dur="3s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Style Animations -->
+    <style>
+      .fadeIn {
+        animation: fadeIn 1.5s ease forwards;
+        opacity: 0;
+      }
+      .fadeIn2 {
+        animation: fadeIn2 2.3s ease forwards;
+        opacity: 0;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(12px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes fadeIn2 {
+        from { opacity: 0; transform: translateY(18px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+    </style>
   </defs>
 
-  <!-- Main Title -->
-  <text x="50%" y="60" font-size="48" font-family="Verdana" font-weight="900" text-anchor="middle" fill="url(#grad)">
-    HI, I'm Mohamed
-  </text>
+  <!-- Shadow + Main Title (Masked for shine) -->
+  <g filter="url(#softGlow)">
+    
+    <!-- Main Gradient Text -->
+    <text id="mainTitle"
+          x="50%" y="40%"
+          text-anchor="middle"
+          fill="url(#cyberGradient)"
+          font-size="50"
+          font-weight="700"
+          class="fadeIn">
+        Hi, I'm Mohamed Faisal
+    </text>
+
+    <!-- Shine Layer (Masking over title) -->
+    <mask id="textMask">
+      <text x="50%" y="40%" 
+            text-anchor="middle"
+            font-size="50"
+            font-weight="700"
+            fill="white">
+        Hi, I'm Mohamed Faisal
+      </text>
+    </mask>
+
+    <!-- Moving Shine -->
+    <rect x="0" y="0" width="100%" height="100%" 
+          fill="url(#shineGradient)" mask="url(#textMask)"/>
+  </g>
 
   <!-- Subtitle -->
-  <text x="50%" y="120" font-size="28" font-family="Verdana" font-weight="700" text-anchor="middle" fill="url(#grad)">
-    AI Engineer • Machine Learning • Deep Learning • NLP
+  <text x="50%" y="55%"
+        text-anchor="middle"
+        fill="url(#cyberGradient)"
+        font-size="22"
+        font-weight="400"
+        class="fadeIn2">
+    AI Engineer • Machine Learning • Deep Learning • Computer Vision
   </text>
 
 </svg>
