@@ -53,6 +53,10 @@
 
 <h2 align="center">📊 GitHub Intelligence</h2>
 
+![GitHub Stats](stats.svg)
+
+
+
 <div align="center">
   <a href="https://github.com/mohamed-faisal-salem">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mohamed-faisal-salem&show_icons=true&theme=tokyonight&bg_color=0d1117&title_color=00f2ff&icon_color=bd00ff&text_color=ffffff&hide_border=true" />
