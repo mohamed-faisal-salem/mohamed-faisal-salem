@@ -35,8 +35,6 @@
     </filter>
   </defs>
 
-  <!-- Background -->
-  <rect width="100%" height="100%" fill="url(#bg)" />
 
   <style>
     .title { font: 700 26px 'Segoe UI', sans-serif; fill: #e2f3ff; }
@@ -109,3 +107,4 @@
   </circle>
 
 </svg>
+
