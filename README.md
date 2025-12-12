@@ -1,6 +1,6 @@
 <!-- ========== Banner ========== -->
 <p align="center">
-  <img src="Banner.png" alt="banner" width="100%" style="max-height:320px; object-fit:cover; filter: brightness(0.8) contrast(1.2)"/>
+  <img src="typing.gif" alt="typing effect" width="680"/>
 </p>
 
 <h1 align="center">Eng-Mohamed Faisal<a href="https://github.com/<YOUR_USERNAME>"><strong><YOUR_USERNAME></strong></a></h1>
@@ -12,9 +12,7 @@
   <img src="https://img.shields.io/badge/Certificates-3%20Earned-0a0?style=for-the-badge&logo=certified" alt="certificates"/>
 </p>
 
-<p align="center">
-  <img src="typing.gif" alt="typing effect" width="680"/>
-</p>
+
 
 ---
 
