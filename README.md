@@ -1,13 +1,13 @@
 <!-- ========== Banner ========== -->
 
 
-<p align="center">
-  <img src="typing.gif" alt="typing effect" width="680"/>
-</p>
-
 
 <p align="center">
   <img src="./animated-header.svg" />
+</p>
+
+<p align="center">
+  <img src="typing.gif" alt="typing effect" width="680"/>
 </p>
 
 
