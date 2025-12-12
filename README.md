@@ -7,18 +7,18 @@
 
   <br/><br/>
 
-  <a href="https://www.linkedin.com/in/mohamed-faisal-748051360/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/mohamed-faisal-salem">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="mailto:engmohamedfaisal06@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://instagram.com/mohamed_faisal.06">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
+<a href="https://www.linkedin.com/in/mohamed-faisal-748051360/">
+  <img src="https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://github.com/mohamed-faisal-salem">
+  <img src="https://img.shields.io/badge/GitHub-6e44ff?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="mailto:engmohamedfaisal06@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-5c00ff?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://instagram.com/mohamed_faisal.06">
+  <img src="https://img.shields.io/badge/Instagram-9c2eff?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
 </div>
 
 <br/>
