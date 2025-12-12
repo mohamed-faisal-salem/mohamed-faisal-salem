@@ -23,19 +23,19 @@
 
 <br/>
 
-<h2 align="center">⚡ Identify: <span style="color:#00f2ff">Mohamed Faisal</span></h2>
+<h2 align="center">💻 About Me<span style="color:#6e44ff"></span></h2>
 
 <p align="center">
-  <em>Computer Vision & AI Enthusiast | Converting Coffee into Code ☕</em>
+  <em>Second-year Computers & AI student at Cairo University | Passionate about Machine Learning, Deep Learning & NLP | Python & C++ Enthusiast ☕</em>
 </p>
 
 <p align="center">
-  I am a second-year <strong>Computers & AI</strong> student at <strong>Cairo University</strong>. My world revolves around <strong>Neural Networks, NLP, and Computer Vision</strong>. I don't just learn theories; I build models that see, read, and predict.
+  I love turning theory into practice—building AI models, software projects, and tackling data challenges.<br/>
+  Achievements include Top 4% in the House Prices challenge and Top 26% in the Titanic survival prediction.<br/>
+  Always learning, coding, and exploring intelligent systems.
 </p>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=mohamed-faisal-salem&style=flat-square&color=blue&label=PROFILE+VIEWS" alt="views" />
-</div>
+
 
 ---
 
