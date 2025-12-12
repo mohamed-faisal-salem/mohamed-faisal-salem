@@ -34,8 +34,6 @@
     </g>
   </defs>
   
-  <!-- Background -->
-  <rect width="800" height="400" fill="url(#statsGradient)"/>
   
   <!-- Title -->
   <text x="400" y="50" text-anchor="middle" fill="url(#cyberGradient)" 
@@ -119,11 +117,5 @@
     <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2s" repeatCount="indefinite" begin="1s"/>
   </path>
   
-  <!-- Live Status Indicator -->
-  <circle cx="750" cy="50" r="8" fill="#00ff00">
-    <animate attributeName="r" values="8;10;8" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <text x="735" y="55" text-anchor="end" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">
-    LIVE
-  </text>
 </svg>
+
