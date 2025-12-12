@@ -1,105 +1,97 @@
-
 <!-- ========== Banner ========== -->
 <p align="center">
-  <img src="assets/banner.png" alt="banner" width="100%" style="max-height:320px; object-fit:cover;"/>
+  <img src="assets/banner.png" alt="banner" width="100%" style="max-height:320px; object-fit:cover; filter: brightness(0.8) contrast(1.2)"/>
 </p>
 
-<h1 align="center">Eng-Mohamed Faisal / <a href="https://github.com/<YOUR_USERNAME>"><strong><YOUR_USERNAME></strong></a> </h1>
+<h1 align="center">Eng-Mohamed Faisal / <a href="https://github.com/<YOUR_USERNAME>"><strong><YOUR_USERNAME></strong></a></h1>
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Role-AI%20%26%20Android%20Engineer-0a0?style=for-the-badge&logo=android" alt="role"/>
-  <img src="https://img.shields.io/badge/Tech-Java|Kotlin|Python-0a0?style=for-the-badge&logo=java" alt="tech"/>
-  <img src="https://img.shields.io/badge/Tools-Firebase|Git|Linux-0a0?style=for-the-badge&logo=firebase" alt="tools"/>
-  <img src="https://img.shields.io/badge/Cyber-Hacking%20Lab-0a0?style=for-the-badge&logo=kali-linux" alt="cyber"/>
+  <img src="https://img.shields.io/badge/Role-AI%20Engineer-0a0?style=for-the-badge&logo=python" alt="role"/>
+  <img src="https://img.shields.io/badge/Languages-Python|C++|Java-0a0?style=for-the-badge&logo=python" alt="tech"/>
+  <img src="https://img.shields.io/badge/Tools-Git|Linux|VSCode-0a0?style=for-the-badge&logo=visual-studio-code" alt="tools"/>
+  <img src="https://img.shields.io/badge/Certificates-3%20Earned-0a0?style=for-the-badge&logo=certified" alt="certificates"/>
 </p>
 
 <p align="center">
-  <img src="assets/typing.gif" alt="typing" width="680"/>
+  <img src="assets/typing.gif" alt="typing effect" width="680"/>
 </p>
 
 ---
 
-## 🧩 About me
-I’m Mohamed Faisal, a second-year Computers & AI student at Cairo University, driven by a growing interest in machine learning, deep learning, and how intelligent systems can understand and process human language.
+## 🧩 About Me
+I’m **Mohamed Faisal**, a second-year Computers & AI student at Cairo University, driven by a strong passion for **AI, Machine Learning, and NLP**.
 
-I approach the field with a learner’s mindset—consistent practice, structured study, and a focus on building a strong foundation before moving into advanced applications.
+I approach learning with a **structured and hands-on mindset**: combining theoretical foundations with practical experiments in ML/DL projects and competitions.
 
-My core technical stack is built on Python and C++, underpinned by a strong foundation in algorithmic problem-solving. I am currently deepening my expertise in modern AI frameworks like PyTorch/TensorFlow to master advanced concepts in deep learning and NLP.
+My main stack: **Python > C++ > Java**, with deep focus on **PyTorch/TensorFlow, NLP, and model deployment**.
 
-I actively apply my theoretical knowledge in competitive environments, demonstrating proficiency in data preprocessing and model ensembling: I achieved Top 4% in the competitive House Prices challenge, and Top 26% in the Titanic survival prediction.
+**Achievements in AI/ML:**  
+- Top **4%** in House Prices Challenge  
+- Top **26%** in Titanic Survival Prediction  
 
-Beyond my competitive focus, I have also developed several practical software projects, such as an Android Qur’an recitation app (Java/XML), an image-filter application, and OOP-based audio player (JUCE/C++). These projects have instilled a strong command of Object-Oriented Programming (OOP), GUI development, and the discipline required for building and deploying full-stack applications.
+**Projects & Practical Experience:**  
+- Android development experience (brief), mainly **Java/XML**  
+- Current project: **Qur’an Recitation App** with an **attractive, user-friendly interface**, multiple reciters (230+), fast search, Light/Dark mode, offline support, and recitation management.
 
-At this stage of my journey, my goal is to build a solid, industry-ready skill set by combining academic knowledge with continuous hands-on practice.
-
-I'm always open to learning, connecting, and exchanging knowledge
+I aim to build an **industry-ready skill set**, combining academic knowledge with continuous hands-on practice.
 
 ---
 
-## 📌 Featured Projects
-<!-- Replace links and images with your repos and screenshots/GIFs -->
+## 📌 Featured Project
+
 <table>
   <tr>
-    <td align="center" width="33%">
+    <td align="center" width="50%">
       <a href="https://github.com/<YOUR_USERNAME>/android-islamic-app">
-        <img src="assets/project-app.gif" alt="Islamic App" width="220"/><br/>
-        <strong>Islamic App</strong><br/>
-        Android • Firebase • Offline Quran
-      </a>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://github.com/<YOUR_USERNAME>/ai-chatbot">
-        <img src="assets/ml-demo.png" alt="AI Demo" width="220"/><br/>
-        <strong>AI Chatbot</strong><br/>
-        NLP • Flask • small transformer
-      </a>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://github.com/<YOUR_USERNAME>/tools">
-        <img src="assets/typing.gif" alt="Tools" width="220"/><br/>
-        <strong>Dev Tools</strong><br/>
-        Scripts • Automation • CLI
+        <img src="assets/project-app.png" alt="Islamic App" width="220"/><br/>
+        <strong>Qur’an Recitation App</strong><br/>
+        Android • Java/XML • Firebase • Offline & Multi-reciter
       </a>
     </td>
   </tr>
 </table>
 
----
-
-## 🧪 Demos & Live
-- Live APK / Demo: (ضع رابط)  
-- Docker / API: (ضع رابط)
-
----
-
-## 📫 Contact
-- GitHub: https://github.com/<YOUR_USERNAME>  
-- Email: `<your.email@example.com>`  
-- Twitter / X: `@<your_handle>` (اختياري)
+**Features:**  
+- Attractive and intuitive UI  
+- Play recitations from **230+ reciters**  
+- **Top reciters** sorting & fast search  
+- **Light/Dark mode**  
+- Offline surah downloads  
+- Organize recitations by **reciter’s narration**  
+- Manage downloaded recitations  
 
 ---
 
-## 🎯 Final touches (do it)
-1. Add the images to `assets/` folder and push.  
-2. Replace `<YOUR_USERNAME>` everywhere in this README.  
-3. Pin the repos you want to feature (Profile → Customize → Pinned repos).  
-4. Add a README to each featured repo with screenshots + how-to-run.  
-5. (اختياري) Add GitHub Actions: run tests / build APK nightly → يدي إنطباع احترافي.
+## 🧪 Certifications
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20for%20Everyone-Coursera-blue?style=for-the-badge&logo=coursera"/>
+  <img src="https://img.shields.io/badge/Machine%20Learning%20with%20Python-IBM-blue?style=for-the-badge&logo=ibm"/>
+  <img src="https://img.shields.io/badge/Deep%20Learning-Deeplearning.ai-blue?style=for-the-badge&logo=deeplearningdotai"/>
+</p>
 
 ---
 
-##### Made with ☕️ + Terminal vibes — إذا عايز أعمللك البانر والجيفز أنا أعملهملك دلوقتي، ابعتلي صورة أو قوللي ستايل: "matrix / cyberpunk / neon brain".
+## 📫 Contact Me
 
-<!--
-**mohamed-faisal-salem/mohamed-faisal-salem** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<form action="mailto:your.email@example.com" method="post" enctype="text/plain" style="max-width:500px; margin:auto;">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required style="width:100%; padding:8px;"><br><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required style="width:100%; padding:8px;"><br><br>
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" required style="width:100%; padding:8px;"></textarea><br><br>
+  <input type="submit" value="Send" style="background-color:#0a0; color:white; padding:10px 20px; border:none; cursor:pointer;">
+</form>
 
-Here are some ideas to get you started:
+<p align="center">
+  Or reach me via:  
+  <a href="https://instagram.com/<YOUR_INSTAGRAM>" target="_blank">Instagram</a> •  
+  <a href="https://facebook.com/<YOUR_FACEBOOK>" target="_blank">Facebook</a> •  
+  <a href="https://github.com/<YOUR_USERNAME>" target="_blank">GitHub</a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+##### Made with ☕️ + Hacker/AI vibes — Theme applied to banner, badges, and gifs.
+
