@@ -41,7 +41,7 @@ I aim to build an **industry-ready skill set**, combining academic knowledge wit
   <tr>
     <td align="center" width="50%">
       <a href="https://github.com/mohamed-faisal-salem/Telawat.git">
-        <img src="assets/project-app.png" alt="Islamic App" width="220"/><br/>
+        <img src="project-app.png" alt="Islamic App" width="220"/><br/>
         <strong>Qur’an Recitation App</strong><br/>
         Android • Java/XML • Firebase • Offline & Multi-reciter
       </a>
