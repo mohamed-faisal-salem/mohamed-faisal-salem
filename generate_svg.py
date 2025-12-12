@@ -1,31 +1,45 @@
 import requests
 
-# حط اسم حسابك هنا
 USERNAME = "mohamed-faisal-salem"
 
-# جلب الريبو من GitHub
-url = f"https://api.github.com/users/mohamed-faisal-salem/repos?per_page=100"
-repos = requests.get(url).json()
+# نجيب قائمة الريبو
+repos_url = f"https://api.github.com/users/{USERNAME}/repos?per_page=100"
+repos = requests.get(repos_url).json()
 
-# نحسب كل لغة ونسبتها
 languages = {}
-for repo in repos:
-    lang = repo['language']
-    if lang:
-        languages[lang] = languages.get(lang, 0) + 1
 
+# نجيب كل لغة بشكل دقيق من endpoint خاص بكل repo
+for repo in repos:
+    repo_name = repo["name"]
+    lang_url = f"https://api.github.com/repos/{USERNAME}/{repo_name}/languages"
+    lang_data = requests.get(lang_url).json()
+
+    for lang, size in lang_data.items():
+        languages[lang] = languages.get(lang, 0) + size
+
+# حساب النسب
 total = sum(languages.values())
-top_languages = {k: round(v/total*100) for k,v in languages.items()}
+top_languages = {k: round(v / total * 100) for k, v in languages.items()}
+
+print("📊 نسب اللغات بدقة:")
+print(top_languages)
 
 # اقرأ الـ SVG Template
 with open("stats-card.svg", "r", encoding="utf-8") as f:
     svg_template = f.read()
 
-# استبدل placeholders بالقيم الحقيقية
+# نحدث القيم داخل الـ SVG
 for lang, percent in top_languages.items():
+
+    # استبدال {Python} → 25%
     svg_template = svg_template.replace(f"{{{lang}}}", f"{percent}%")
 
-# احفظ الملف النهائي
+    # تعديل bars width dynamically
+    max_bar_width = 250  # نفس اللي في الكود بتاعك
+    bar_width = int((percent / 100) * max_bar_width)
+    svg_template = svg_template.replace(f"WIDTH[{lang}]", str(bar_width))
+
+# حفظ الناتج النهائي
 with open("stats.svg", "w", encoding="utf-8") as f:
     f.write(svg_template)
 
