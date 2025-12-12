@@ -1,7 +1,7 @@
 import requests
 
 # حط اسم حسابك هنا
-USERNAME = "Mohamed-Faisal-Salem"
+USERNAME = "mohamed-faisal-salem"
 
 # جلب الريبو من GitHub
 url = f"https://api.github.com/users/mohamed-faisal-salem/repos?per_page=100"
@@ -18,7 +18,7 @@ total = sum(languages.values())
 top_languages = {k: round(v/total*100) for k,v in languages.items()}
 
 # اقرأ الـ SVG Template
-with open("stats-card.svg", "r") as f:
+with open("stats-card.svg", "r", encoding="utf-8") as f:
     svg_template = f.read()
 
 # استبدل placeholders بالقيم الحقيقية
@@ -26,7 +26,7 @@ for lang, percent in top_languages.items():
     svg_template = svg_template.replace(f"{{{lang}}}", f"{percent}%")
 
 # احفظ الملف النهائي
-with open("stats.svg", "w") as f:
+with open("stats.svg", "w", encoding="utf-8") as f:
     f.write(svg_template)
 
 print("✅ SVG تم تحديثه بنجاح!")
