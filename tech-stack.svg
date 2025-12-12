@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2ff"/>
+      <stop offset="100%" stop-color="#bd00ff"/>
+    </linearGradient>
+    
+    <!-- Badge Templates -->
+    <g id="python-badge">
+      <rect x="0" y="0" width="120" height="35" rx="17.5" fill="#3776AB"/>
+      <text x="60" y="22" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">Python</text>
+    </g>
+    
+    <g id="pytorch-badge">
+      <rect x="0" y="0" width="120" height="35" rx="17.5" fill="#EE4C2C"/>
+      <text x="60" y="22" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">PyTorch</text>
+    </g>
+    
+    <g id="tensorflow-badge">
+      <rect x="0" y="0" width="120" height="35" rx="17.5" fill="#FF6F00"/>
+      <text x="60" y="22" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">TensorFlow</text>
+    </g>
+    
+    <g id="cpp-badge">
+      <rect x="0" y="0" width="120" height="35" rx="17.5" fill="#00599C"/>
+      <text x="60" y="22" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">C++</text>
+    </g>
+    
+    <g id="java-badge">
+      <rect x="0" y="0" width="120" height="35" rx="17.5" fill="#ED8B00"/>
+      <text x="60" y="22" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">Java</text>
+    </g>
+    
+    <g id="git-badge">
+      <rect x="0" y="0" width="120" height="35" rx="17.5" fill="#E44C30"/>
+      <text x="60" y="22" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">Git</text>
+    </g>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" fill="url(#techGradient)" font-family="Arial" font-size="28" font-weight="bold">
+    🛠️ Technological Arsenal
+  </text>
+  
+  <!-- AI/ML Section -->
+  <text x="400" y="100" text-anchor="middle" fill="#00ffff" font-family="Arial" font-size="18" font-weight="bold">
+    AI & Machine Learning
+  </text>
+  
+  <g transform="translate(200, 130)">
+    <use xlink:href="#python-badge"/>
+  </g>
+  
+  <g transform="translate(340, 130)">
+    <use xlink:href="#pytorch-badge"/>
+  </g>
+  
+  <g transform="translate(480, 130)">
+    <use xlink:href="#tensorflow-badge"/>
+  </g>
+  
+  <!-- Languages Section -->
+  <text x="400" y="200" text-anchor="middle" fill="#00ffff" font-family="Arial" font-size="18" font-weight="bold">
+    Programming Languages
+  </text>
+  
+  <g transform="translate(200, 230)">
+    <use xlink:href="#cpp-badge"/>
+  </g>
+  
+  <g transform="translate(340, 230)">
+    <use xlink:href="#java-badge"/>
+  </g>
+  
+  <g transform="translate(480, 230)">
+    <use xlink:href="#git-badge"/>
+  </g>
+  
+  <!-- Animation for badges -->
+  <animateTransform 
+    xlink:href="#python-badge"
+    attributeName="transform"
+    type="translate"
+    values="0,0; 0,-3; 0,0"
+    dur="2s"
+    repeatCount="indefinite"
+    begin="0s"
+  />
+  
+  <animateTransform 
+    xlink:href="#pytorch-badge"
+    attributeName="transform"
+    type="translate"
+    values="0,0; 0,-3; 0,0"
+    dur="2s"
+    repeatCount="indefinite"
+    begin="0.5s"
+  />
+</svg>

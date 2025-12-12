@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="250" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="statsGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#1a1f29"/>
+    </linearGradient>
+    
+    <linearGradient id="barGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2ff"/>
+      <stop offset="100%" stop-color="#bd00ff"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Card Background -->
+  <rect x="50" y="30" width="700" height="190" rx="15" fill="url(#statsGradient)" stroke="rgba(0,242,255,0.3)" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="400" y="70" text-anchor="middle" fill="#00f2ff" font-family="Arial" font-size="24" font-weight="bold">
+    📊 GitHub Analytics
+  </text>
+  
+  <!-- Stats Bars -->
+  <!-- Python -->
+  <text x="100" y="120" fill="#a0e7ff" font-family="Arial" font-size="14">Python</text>
+  <rect x="250" y="110" width="400" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
+  <rect x="250" y="110" width="320" height="15" rx="7.5" fill="url(#barGradient)">
+    <animate attributeName="width" from="0" to="320" dur="1s" fill="freeze"/>
+  </rect>
+  <text x="660" y="122" fill="#00ffff" font-family="Arial" font-size="12">80%</text>
+  
+  <!-- C++ -->
+  <text x="100" y="150" fill="#a0e7ff" font-family="Arial" font-size="14">C++</text>
+  <rect x="250" y="140" width="400" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
+  <rect x="250" y="140" width="280" height="15" rx="7.5" fill="url(#barGradient)">
+    <animate attributeName="width" from="0" to="280" dur="1s" begin="0.2s" fill="freeze"/>
+  </rect>
+  <text x="660" y="152" fill="#00ffff" font-family="Arial" font-size="12">70%</text>
+  
+  <!-- Java -->
+  <text x="100" y="180" fill="#a0e7ff" font-family="Arial" font-size="14">Java</text>
+  <rect x="250" y="170" width="400" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
+  <rect x="250" y="170" width="240" height="15" rx="7.5" fill="url(#barGradient)">
+    <animate attributeName="width" from="0" to="240" dur="1s" begin="0.4s" fill="freeze"/>
+  </rect>
+  <text x="660" y="182" fill="#00ffff" font-family="Arial" font-size="12">60%</text>
+  
+  <!-- Total Projects -->
+  <g transform="translate(650, 120)">
+    <circle cx="0" cy="0" r="30" fill="rgba(0,242,255,0.1)" stroke="#00f2ff" stroke-width="2"/>
+    <text x="0" y="5" text-anchor="middle" fill="#00f2ff" font-family="Arial" font-size="20" font-weight="bold">15+</text>
+    <text x="0" y="25" text-anchor="middle" fill="#a0e7ff" font-family="Arial" font-size="10">Projects</text>
+  </g>
+</svg>
