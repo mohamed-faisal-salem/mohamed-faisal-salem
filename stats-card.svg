@@ -52,48 +52,51 @@
       💻 Top Languages
     </text>
     
-    <!-- Language Bars -->
-    <g transform="translate(50, 70)">
-      <!-- Python -->
-      <text x="0" y="15" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">Python</text>
-      <g transform="translate(100, 8)">
-        <rect width="250" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
-        <rect width="225" height="15" rx="7.5" fill="url(#cyberGradient)">
-          <animate attributeName="width" from="0" to="225" dur="1s" fill="freeze"/>
-        </rect>
-        <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{Python}</text>
-      </g>
-      
-      <!-- C++ -->
-      <text x="0" y="50" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">C++</text>
-      <g transform="translate(100, 43)">
-        <rect width="250" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
-        <rect width="175" height="15" rx="7.5" fill="url(#cyberGradient)">
-          <animate attributeName="width" from="0" to="175" dur="1s" begin="0.2s" fill="freeze"/>
-        </rect>
-        <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{C++}</text>
-      </g>
-      
-      <!-- Java -->
-      <text x="0" y="85" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">Java</text>
-      <g transform="translate(100, 78)">
-        <rect width="250" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
-        <rect width="150" height="15" rx="7.5" fill="url(#cyberGradient)">
-          <animate attributeName="width" from="0" to="150" dur="1s" begin="0.4s" fill="freeze"/>
-        </rect>
-        <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{Java}</text>
-      </g>
-      
-      <!-- HTML -->
-      <text x="0" y="120" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">HTML</text>
-      <g transform="translate(100, 113)">
-        <rect width="250" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
-        <rect width="125" height="15" rx="7.5" fill="url(#cyberGradient)">
-          <animate attributeName="width" from="0" to="125" dur="1s" begin="0.6s" fill="freeze"/>
-        </rect>
-        <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{HTML}</text>
-      </g>
-    </g>
+<!-- Language Bars -->
+<g transform="translate(50, 70)">
+
+  <!-- Python -->
+  <text x="0" y="15" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">Python</text>
+  <g transform="translate(100, 8)">
+    <rect width="250" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
+    <rect width="WIDTH[Python]" height="15" rx="7.5" fill="url(#cyberGradient)">
+      <animate attributeName="width" from="0" to="WIDTH[Python]" dur="1s" fill="freeze"/>
+    </rect>
+    <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{Python}</text>
+  </g>
+
+  <!-- C++ -->
+  <text x="0" y="50" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">C++</text>
+  <g transform="translate(100, 43)">
+    <rect width="250" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
+    <rect width="WIDTH[C++]" height="15" rx="7.5" fill="url(#cyberGradient)">
+      <animate attributeName="width" from="0" to="WIDTH[C++]" dur="1s" begin="0.2s" fill="freeze"/>
+    </rect>
+    <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{C++}</text>
+  </g>
+
+  <!-- Java -->
+  <text x="0" y="85" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">Java</text>
+  <g transform="translate(100, 78)">
+    <rect width="250" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
+    <rect width="WIDTH[Java]" height="15" rx="7.5" fill="url(#cyberGradient)">
+      <animate attributeName="width" from="0" to="WIDTH[Java]" dur="1s" begin="0.4s" fill="freeze"/>
+    </rect>
+    <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{Java}</text>
+  </g>
+
+  <!-- HTML -->
+  <text x="0" y="120" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">HTML</text>
+  <g transform="translate(100, 113)">
+    <rect width="250" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
+    <rect width="WIDTH[HTML]" height="15" rx="7.5" fill="url(#cyberGradient)">
+      <animate attributeName="width" from="0" to="WIDTH[HTML]" dur="1s" begin="0.6s" fill="freeze"/>
+    </rect>
+    <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{HTML}</text>
+  </g>
+
+</g>
+
   </g>
   
   <!-- Animated Elements -->
@@ -118,4 +121,5 @@
   </path>
   
 </svg>
+
 
