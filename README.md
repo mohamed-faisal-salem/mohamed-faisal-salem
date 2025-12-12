@@ -24,8 +24,8 @@ I approach learning with a **structured and hands-on mindset**: combining theore
 My main stack: **Python > C++ > Java**, with deep focus on **PyTorch/TensorFlow, NLP, and model deployment**.
 
 **Achievements in AI/ML:**  
-- Top **4%** in House Prices Challenge  
-- Top **26%** in Titanic Survival Prediction  
+- Top **4%** in House Prices Challenge (Kaggle)
+- Top **26%** in Titanic (Kaggle) 
 
 **Projects & Practical Experience:**  
 - Android development experience (brief), mainly **Java/XML**  
@@ -62,7 +62,7 @@ I aim to build an **industry-ready skill set**, combining academic knowledge wit
 ## 🧪 Certifications
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI%20for%20Everyone-Coursera-blue?style=for-the-badge&logo=coursera"/>
+  <img src="https://img.shields.io/badge/AI%20for%20Everyone-ITI-blue?style=for-the-badge&logo=iti"/>
   <img src="https://img.shields.io/badge/Machine%20Learning%20with%20Python-IBM-blue?style=for-the-badge&logo=ibm"/>
   <img src="https://img.shields.io/badge/Deep%20Learning-Deeplearning.ai-blue?style=for-the-badge&logo=deeplearningdotai"/>
 </p>
@@ -73,19 +73,16 @@ I aim to build an **industry-ready skill set**, combining academic knowledge wit
 
 <form action="mailto:your.email@example.com" method="post" enctype="text/plain" style="max-width:500px; margin:auto;">
   <label for="name">Name: Mohamed Faisal</label><br>
-  <input type="text" id="name" name="name" required style="width:100%; padding:8px;"><br>
-  <label for="email">Email: engmohamedfaisal06@gmail.com</label><br>
+  <input type="text" id="name" name="name" required style="width:100%; padding:8px;">
+  <label for="email">Email: engmohamedfaisal06@gmail.com</label>
   <input type="email" id="email" name="email" required style="width:100%; padding:8px;"><br><br>
 </form>
 
 <p align="center">
   Or reach me via:  
+  <a href="https://www.linkedin.com/in/mohamed-faisal-748051360/" target="_blank">LinkedIn</a> •  
   <a href="https://instagram.com/mohamed_faisal.06" target="_blank">Instagram</a> •  
   <a href="https://www.facebook.com/mohamed.faisal.986182" target="_blank">Facebook</a> •  
   <a href="https://github.com/mohamed-faisal-salem" target="_blank">GitHub</a>
 </p>
-
----
-
-##### Made with ☕️ + Hacker/AI vibes — Theme applied to banner, badges, and gifs.
 
