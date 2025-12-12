@@ -55,16 +55,6 @@
 <!-- Language Bars -->
 <g transform="translate(50, 70)">
 
-  <!-- Python -->
-  <text x="0" y="15" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">Python</text>
-  <g transform="translate(100, 8)">
-    <rect width="250" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
-    <rect width="WIDTH[Python]" height="15" rx="7.5" fill="url(#cyberGradient)">
-      <animate attributeName="width" from="0" to="WIDTH[Python]" dur="1s" fill="freeze"/>
-    </rect>
-    <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{Python}</text>
-  </g>
-
   <!-- C++ -->
   <text x="0" y="50" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">C++</text>
   <g transform="translate(100, 43)">
@@ -85,6 +75,18 @@
     <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{Java}</text>
   </g>
 
+  
+  <!-- C -->
+  <text x="0" y="15" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">C</text>
+  <g transform="translate(100, 8)">
+    <rect width="250" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
+    <rect width="WIDTH[C]" height="15" rx="7.5" fill="url(#cyberGradient)">
+      <animate attributeName="width" from="0" to="WIDTH[Python]" dur="1s" fill="freeze"/>
+    </rect>
+    <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{C}</text>
+  </g>
+
+  
   <!-- HTML -->
   <text x="0" y="120" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">HTML</text>
   <g transform="translate(100, 113)">
@@ -95,6 +97,16 @@
     <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{HTML}</text>
   </g>
 
+  
+  <!-- Python -->
+  <text x="0" y="15" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">Python</text>
+  <g transform="translate(100, 8)">
+    <rect width="250" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
+    <rect width="WIDTH[Python]" height="15" rx="7.5" fill="url(#cyberGradient)">
+      <animate attributeName="width" from="0" to="WIDTH[Python]" dur="1s" fill="freeze"/>
+    </rect>
+    <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{Python}</text>
+  </g>
 </g>
 
   </g>
@@ -121,5 +133,6 @@
   </path>
   
 </svg>
+
 
 
