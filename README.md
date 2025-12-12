@@ -66,10 +66,10 @@
 
 <h2 align="center">🏆 Battle Tested (Achievements)</h2>
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Kaggle-Top%204%25%20House%20Prices-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kaggle-Top%2026%25%20Titanic-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
-</div>
+<p align="center">
+  <img src="./achievements.svg" width="90%" alt="Achievements"/>
+</p>
+
 
 ---
 
