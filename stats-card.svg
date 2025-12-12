@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
   <defs>
     <!-- Gradients -->
     <linearGradient id="cyberGradient" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -8,129 +9,98 @@
       <stop offset="100%" stop-color="#00f2ff"/>
     </linearGradient>
     
-    <linearGradient id="statsGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0a0a1a"/>
-      <stop offset="50%" stop-color="#0d1b2a"/>
-      <stop offset="100%" stop-color="#1b263b"/>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f1f"/>
+      <stop offset="100%" stop-color="#1a1335"/>
     </linearGradient>
-    
+
     <!-- Glow Effects -->
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <filter id="glow">
       <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
-      <feFlood flood-color="#00f2ff" flood-opacity="0.3" result="glowColor"/>
-      <feComposite in="glowColor" in2="blur" operator="in" result="glow"/>
+      <feFlood flood-color="#00f2ff" flood-opacity="0.35" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
       <feMerge>
         <feMergeNode in="glow"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    
-    <!-- Data Bars -->
-    <g id="data-bar">
-      <rect width="200" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
-      <rect width="160" height="15" rx="7.5" fill="url(#cyberGradient)">
-        <animate attributeName="width" from="0" to="160" dur="1s" fill="freeze"/>
-      </rect>
-    </g>
   </defs>
-  
-  
-  <!-- Title -->
-  <text x="400" y="50" text-anchor="middle" fill="url(#cyberGradient)" 
-        font-family="Arial, sans-serif" font-size="32" font-weight="bold" filter="url(#glow)">
-    GitHub Intelligence
+
+  <!-- Main Card -->
+  <rect x="30" y="30" width="740" height="290" rx="16"
+        fill="url(#card)"
+        stroke="url(#cyberGradient)" stroke-width="1.5"
+        filter="url(#glow)" />
+
+  <!-- Title Centered -->
+  <text x="400" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#00ffff" font-weight="bold" filter="url(#glow)">
+    💻 Top Languages
   </text>
-  
-  <!-- Main Card - Languages (Centered) -->
-  <g transform="translate(150, 100)">
-    <rect x="0" y="0" width="500" height="250" rx="15" fill="rgba(10,15,35,0.7)" 
-          stroke="rgba(0,242,255,0.3)" stroke-width="2"/>
-    
-    <!-- Card Title -->
-    <text x="250" y="30" text-anchor="middle" fill="#00ffff" 
-          font-family="Arial, sans-serif" font-size="18" font-weight="bold">
-      💻 Top Languages
-    </text>
-    
-<!-- Language Bars -->
-<g transform="translate(50, 70)">
-  <!-- C++ -->
-  <text x="0" y="0" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">C++</text>
-  <g transform="translate(100, -7)">
-    <rect width="250" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
-    <rect width="WIDTH[C++]" height="15" rx="7.5" fill="url(#cyberGradient)">
-      <animate attributeName="width" from="0" to="WIDTH[C++]" dur="1s" begin="0s" fill="freeze"/>
-    </rect>
-    <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{C++}</text>
-  </g>
 
-  <!-- Java -->
-  <text x="0" y="35" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">Java</text>
-  <g transform="translate(100, 28)">
-    <rect width="250" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
-    <rect width="WIDTH[Java]" height="15" rx="7.5" fill="url(#cyberGradient)">
-      <animate attributeName="width" from="0" to="WIDTH[Java]" dur="1s" begin="0.2s" fill="freeze"/>
-    </rect>
-    <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{Java}</text>
-  </g>
+  <!-- Language Bars Centered -->
+  <g transform="translate(100,120)">
+    <!-- كل البارات تقريبا 80% من عرض الكارد -->
+    <!-- C++ -->
+    <text x="0" y="0" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">C++</text>
+    <g transform="translate(100,-7)">
+      <rect width="480" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
+      <rect width="WIDTH[C++]" height="15" rx="7.5" fill="url(#cyberGradient)">
+        <animate attributeName="width" from="0" to="WIDTH[C++]" dur="1s" begin="0s" fill="freeze"/>
+      </rect>
+      <text x="530" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12" text-anchor="end">{C++}</text>
+    </g>
 
-  <!-- C -->
-  <text x="0" y="70" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">C</text>
-  <g transform="translate(100, 63)">
-    <rect width="250" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
-    <rect width="WIDTH[C]" height="15" rx="7.5" fill="url(#cyberGradient)">
-      <animate attributeName="width" from="0" to="WIDTH[C]" dur="1s" begin="0.4s" fill="freeze"/>
-    </rect>
-    <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{C}</text>
-  </g>
+    <!-- Java -->
+    <text x="0" y="35" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">Java</text>
+    <g transform="translate(100,28)">
+      <rect width="480" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
+      <rect width="WIDTH[Java]" height="15" rx="7.5" fill="url(#cyberGradient)">
+        <animate attributeName="width" from="0" to="WIDTH[Java]" dur="1s" begin="0.2s" fill="freeze"/>
+      </rect>
+      <text x="530" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12" text-anchor="end">{Java}</text>
+    </g>
 
-  <!-- HTML -->
-  <text x="0" y="105" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">HTML</text>
-  <g transform="translate(100, 98)">
-    <rect width="250" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
-    <rect width="WIDTH[HTML]" height="15" rx="7.5" fill="url(#cyberGradient)">
-      <animate attributeName="width" from="0" to="WIDTH[HTML]" dur="1s" begin="0.6s" fill="freeze"/>
-    </rect>
-    <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{HTML}</text>
-  </g>
+    <!-- C -->
+    <text x="0" y="70" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">C</text>
+    <g transform="translate(100,63)">
+      <rect width="480" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
+      <rect width="WIDTH[C]" height="15" rx="7.5" fill="url(#cyberGradient)">
+        <animate attributeName="width" from="0" to="WIDTH[C]" dur="1s" begin="0.4s" fill="freeze"/>
+      </rect>
+      <text x="530" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12" text-anchor="end">{C}</text>
+    </g>
 
-  <!-- Python -->
-  <text x="0" y="140" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">Python</text>
-  <g transform="translate(100, 133)">
-    <rect width="250" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
-    <rect width="WIDTH[Python]" height="15" rx="7.5" fill="url(#cyberGradient)">
-      <animate attributeName="width" from="0" to="WIDTH[Python]" dur="1s" begin="0.8s" fill="freeze"/>
-    </rect>
-    <text x="260" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12">{Python}</text>
-  </g>
-</g>
+    <!-- HTML -->
+    <text x="0" y="105" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">HTML</text>
+    <g transform="translate(100,98)">
+      <rect width="480" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
+      <rect width="WIDTH[HTML]" height="15" rx="7.5" fill="url(#cyberGradient)">
+        <animate attributeName="width" from="0" to="WIDTH[HTML]" dur="1s" begin="0.6s" fill="freeze"/>
+      </rect>
+      <text x="530" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12" text-anchor="end">{HTML}</text>
+    </g>
 
+    <!-- Python -->
+    <text x="0" y="140" fill="#a0e7ff" font-family="Arial, sans-serif" font-size="14">Python</text>
+    <g transform="translate(100,133)">
+      <rect width="480" height="15" rx="7.5" fill="rgba(0,242,255,0.1)"/>
+      <rect width="WIDTH[Python]" height="15" rx="7.5" fill="url(#cyberGradient)">
+        <animate attributeName="width" from="0" to="WIDTH[Python]" dur="1s" begin="0.8s" fill="freeze"/>
+      </rect>
+      <text x="530" y="12" fill="#00ffff" font-family="Arial, sans-serif" font-size="12" text-anchor="end">{Python}</text>
+    </g>
 
   </g>
-  
-  <!-- Animated Elements -->
-  <!-- Floating particles -->
-  <circle cx="50" cy="150" r="2" fill="#00f2ff" opacity="0.7">
-    <animate attributeName="cy" values="150;145;150" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
+
+  <!-- Floating Particles -->
+  <circle cx="50" cy="220" r="2" fill="#00f2ff" opacity="0.7">
+    <animate attributeName="cy" values="220;215;220" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite"/>
   </circle>
-  
-  <circle cx="750" cy="250" r="3" fill="#bd00ff" opacity="0.7">
-    <animate attributeName="cy" values="250;255;250" dur="4s" repeatCount="indefinite"/>
+
+  <circle cx="760" cy="110" r="3" fill="#bd00ff" opacity="0.7">
+    <animate attributeName="cy" values="110;115;110" dur="4s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
   </circle>
-  
-  <!-- Animated corners -->
-  <path d="M100,100 L110,100 L100,110 Z" fill="url(#cyberGradient)" opacity="0.5">
-    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2s" repeatCount="indefinite"/>
-  </path>
-  
-  <path d="M700,300 L690,300 L700,290 Z" fill="url(#cyberGradient)" opacity="0.5">
-    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2s" repeatCount="indefinite" begin="1s"/>
-  </path>
-  
+
 </svg>
-
-
-
-
