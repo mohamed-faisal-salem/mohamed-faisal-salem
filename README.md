@@ -1,41 +1,9 @@
 <!-- ========== Banner ========== -->
-<h1 align="center">
-  <span style="
-    font-size: 60px;
-    font-weight: 900;
-    background: linear-gradient(90deg,#00eaff,#007bff,#6f00ff,#00eaff);
-    background-size: 400% 400%;
-    -webkit-background-clip: text;
-    color: transparent;
-    animation: cyberGradient 6s ease infinite;
-    font-family: 'Segoe UI', sans-serif;
-  ">
-    HI, I'm Mohamed
-  </span>
-</h1>
+<p align="center">
+  <img src="./animated-header.svg" />
+</p>
 
-<h3 align="center">
-  <span style="
-    font-size: 28px;
-    font-weight: 700;
-    background: linear-gradient(90deg,#00bfff,#0099ff,#7a00ff,#00bfff);
-    background-size: 300% 300%;
-    -webkit-background-clip: text;
-    color: transparent;
-    animation: cyberGradient 5s ease infinite;
-    font-family: 'Segoe UI', sans-serif;
-  ">
-    AI Engineer • Machine Learning • Deep Learning • NLP
-  </span>
-</h3>
 
-<style>
-@keyframes cyberGradient {
-  0%   {background-position: 0% 50%;}
-  50%  {background-position: 100% 50%;}
-  100% {background-position: 0% 50%;}
-}
-</style>
 
 
 <p align="center">
