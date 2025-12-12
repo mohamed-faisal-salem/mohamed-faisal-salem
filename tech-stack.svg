@@ -50,8 +50,14 @@
         filter="url(#glow)" />
 
   <!-- Title -->
-  <text x="60" y="80" class="title">The Arsenal (Tech Stack)</text>
-  <text x="60" y="105" class="subtitle">Core and AI • Languages • Tools</text>
+<text x="400" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#00ffff" font-weight="bold" filter="url(#glow)">
+  💻 The Arsenal (Tech Stack)
+</text>
+
+<text x="400" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">
+  Core and AI • Languages • Tools
+</text>
+
 
   <!-- Column 1 -->
   <text x="60" y="145" class="col-title">Core and AI</text>
@@ -107,4 +113,5 @@
   </circle>
 
 </svg>
+
 
