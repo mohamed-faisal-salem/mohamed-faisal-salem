@@ -4,7 +4,7 @@
   <img src="assets/banner.png" alt="banner" width="100%" style="max-height:320px; object-fit:cover;"/>
 </p>
 
-<h1 align="center">باشمهندس محمد / <a href="https://github.com/<YOUR_USERNAME>"><strong>@<YOUR_USERNAME></strong></a> 🧠💥</h1>
+<h1 align="center">Eng-Mohamed Faisal / <a href="https://github.com/<YOUR_USERNAME>"><strong>@<YOUR_USERNAME></strong></a> </h1>
 <p align="center">
   <img src="https://img.shields.io/badge/Role-AI%20%26%20Android%20Engineer-0a0?style=for-the-badge&logo=android" alt="role"/>
   <img src="https://img.shields.io/badge/Tech-Java|Kotlin|Python-0a0?style=for-the-badge&logo=java" alt="tech"/>
@@ -19,24 +19,19 @@
 ---
 
 ## 🧩 About me
-- 👨‍💻 **AI & Android Developer** — أعمل على تطبيقات ذكية، ML models، وAPIs مدموجة في Android apps.  
-- 🛡️ **Cybersecurity enthusiast** — بحب الـ tooling، pentesting basics، وautomation scripts.  
-- 🕌 شغال على تطبيقات إسلامية بتركيز على UX وذكاء اصطناعي.  
-- ⚡ أسعى دايمًا لبناء مشاريع صغيرة تضرب العين وتعلم الناس حاجة جديدة.
+I’m Mohamed Faisal, a second-year Computers & AI student at Cairo University, driven by a growing interest in machine learning, deep learning, and how intelligent systems can understand and process human language.
 
----
+I approach the field with a learner’s mindset—consistent practice, structured study, and a focus on building a strong foundation before moving into advanced applications.
 
-## 🔭 Current focus
-- Building: **Islamic AI SuperApp** (Android + Firebase + ML inference)  
-- Learning: advanced NLP & model quantization for mobile deployment  
-- Playing with: Termux pipelines, GitHub Actions, CI/CD
+My core technical stack is built on Python and C++, underpinned by a strong foundation in algorithmic problem-solving. I am currently deepening my expertise in modern AI frameworks like PyTorch/TensorFlow to master advanced concepts in deep learning and NLP.
 
----
+I actively apply my theoretical knowledge in competitive environments, demonstrating proficiency in data preprocessing and model ensembling: I achieved Top 4% in the competitive House Prices challenge, and Top 26% in the Titanic survival prediction.
 
-## 🔧 Tech stack
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=<YOUR_USERNAME>&layout=compact&theme=dark)
-<br/>
-![Stats](https://github-readme-stats.vercel.app/api?username=<YOUR_USERNAME>&show_icons=true&theme=dark&count_private=true)
+Beyond my competitive focus, I have also developed several practical software projects, such as an Android Qur’an recitation app (Java/XML), an image-filter application, and OOP-based audio player (JUCE/C++). These projects have instilled a strong command of Object-Oriented Programming (OOP), GUI development, and the discipline required for building and deploying full-stack applications.
+
+At this stage of my journey, my goal is to build a solid, industry-ready skill set by combining academic knowledge with continuous hands-on practice.
+
+I'm always open to learning, connecting, and exchanging knowledge
 
 ---
 
