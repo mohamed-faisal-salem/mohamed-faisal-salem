@@ -1,6 +1,6 @@
 <!-- ========== Banner ========== -->
 <p align="center">
-  <img src="assets/banner.png" alt="banner" width="100%" style="max-height:320px; object-fit:cover; filter: brightness(0.8) contrast(1.2)"/>
+  <img src="Banner.png" alt="banner" width="100%" style="max-height:320px; object-fit:cover; filter: brightness(0.8) contrast(1.2)"/>
 </p>
 
 <h1 align="center">Eng-Mohamed Faisal<a href="https://github.com/<YOUR_USERNAME>"><strong><YOUR_USERNAME></strong></a></h1>
