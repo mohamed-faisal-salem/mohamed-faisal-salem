@@ -1,8 +1,13 @@
+
 <div align="center">
   <img src="animated-header.svg" width="100%" alt="Mohamed Faisal Banner" />
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2600&pause=800&color=8A2BE2&center=true&vCenter=true&width=750&lines=FCAI+Student%3BAI+%2F+ML+Engineer%3BDeep+Learning+Learner%3BBuilding+Intelligent+Systems%3BDriven+by+Curiosity+and+Passion%3BAiming+to+Make+Impact+with+AI"
+  alt="Typing SVG"
+/>
+
   
-  <br/>
-  
+  <br/><br/>
   <img src="typing.gif" width="600" alt="coding animation" style="border-radius: 10px; box-shadow: 0px 0px 20px rgba(0, 198, 255, 0.3);"/>
 
   <br/><br/>
