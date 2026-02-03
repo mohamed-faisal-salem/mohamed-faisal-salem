@@ -48,13 +48,15 @@
 
 ---
 
-![GitHub Stats](stats.svg)
-
----
-
 <p align="center">
   <img src="./achievements.svg" width="90%" alt="Achievements"/>
 </p>
+
+---
+
+![GitHub Stats](stats.svg)
+
+
 
 ---
 
