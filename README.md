@@ -1,45 +1,98 @@
 <div align="center">
-  <img src="animated-header.svg" width="100%" alt="Mohamed Faisal Banner" />
-<img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2600&pause=800&color=8A2BE2&center=true&vCenter=true&width=750&lines=FCAI+Student%3BAI+%2F+ML+Engineer%3BDeep+Learning+Learner%3BBuilding+Intelligent+Systems%3BDriven+by+Curiosity+and+Passion%3BAiming+to+Make+Impact+with+AI"
-  alt="Typing SVG"
-/>
 
-  
-  <br/><br/>
-  <img src="typing.gif" width="600" alt="coding animation" style="border-radius: 10px; box-shadow: 0px 0px 20px rgba(0, 198, 255, 0.3);"/>
+<!-- Animated Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,18,20,24,27&height=200&section=header&text=Mohamed%20Faisal%20Salem&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI%20Engineer%20%7C%20Deep%20Learning%20Enthusiast%20%7C%20Problem%20Solver&descSize=18&descAlignY=55" width="100%"/>
 
-  <br/><br/>
+<!-- Typing Animation with Updated Text -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=false&width=800&height=60&lines=🎓+FCAI+Student+%7C+Cairo+University;🤖+AI+%2F+ML+Engineer+in+the+Making;🧠+Deep+Learning+%26+NLP+Enthusiast;💻+Turning+Ideas+into+Intelligent+Systems;🚀+Top+4%25+in+Kaggle+Competitions;📱+Android+Developer+%7C+230%2B+Reciters+App" alt="Typing SVG" />
+</a>
 
-<a href="https://www.linkedin.com/in/mohamed-faisal-748051360/">
-  <img src="https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://github.com/mohamed-faisal-salem">
-  <img src="https://img.shields.io/badge/GitHub-6e44ff?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="mailto:engmohamedfaisal06@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-5c00ff?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://instagram.com/mohamed_faisal.06">
-  <img src="https://img.shields.io/badge/Instagram-9c2eff?style=for-the-badge&logo=instagram&logoColor=white" />
-</a>
+<br/>
+
+<!-- Animated GIF -->
+<img src="typing.gif" width="600" alt="coding animation" style="border-radius: 15px;"/>
+
+<br/><br/>
+
+<!-- Social Media Badges with Gradient Colors -->
+<p align="center">
+  <a href="https://linkedin.com/in/mohamed-faisal-748051360">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2"/>
+  </a>
+  <a href="https://github.com/mohamed-faisal-salem">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="mailto:engmohamedfaisal06@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://instagram.com/mohamed_faisal.06">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+  <a href="https://kaggle.com/mohamedfaisalsalem">
+    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
+  </a>
+</p>
+
+<!-- Profile Views Counter -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=mohamed-faisal-salem&label=Profile%20Views&color=00D9FF&style=for-the-badge" alt="Profile views"/>
+</p>
+
 </div>
 
 <br/>
 
-<h2 align="center">ðŸ’» About Me<span style="color:#6e44ff"></span></h2>
 
-<p align="center">
-  <em>Second-year Computers & AI student at Cairo University | Passionate about Machine Learning, Deep Learning & NLP | Python & C++ Enthusiast â˜•</em>
-</p>
+---
 
-<p align="center">
-  I love turning theory into practiceâ€”building AI models, software projects, and tackling data challenges.<br/>
-  Achievements include Top 4% in the House Prices challenge and Top 26% in the Titanic survival prediction.<br/>
-  Always learning, coding, and exploring intelligent systems.
-</p>
+## 💻 About Me
 
+```python
+class MohamedFaisal:
+    def __init__(self):
+        self.name = "Mohamed Faisal"
+        self.role = "AI/ML Enthusiast"
+        self.education = {
+            "university": "Cairo University",
+            "faculty": "Faculty of Computers and Artificial Intelligence (FCAI)",
+            "year": "Second Year",
+            "focus": ["Machine Learning", "Deep Learning", "Natural Language Processing"]
+        }
+        self.location = "Giza, Egypt 🇪🇬"
+        self.languages = ["Arabic (Native)", "English (Intermediate)"]
+        
+    def current_focus(self):
+        return [
+            "🤖 Building and experimenting with AI/ML models",
+            "📊 Participating in Kaggle competitions",
+            "📚 Learning advanced Deep Learning & NLP techniques",
+            "🔬 Exploring AI research papers and implementations"
+        ]
+    
+    def achievements(self):
+        return {
+            "kaggle": {
+                "house_prices": "Top 4% 🏆",
+                "titanic": "Top 9% 🚢"
+            },
+            "projects": {
+                "ml_models": "Implemented multiple ML/DL models for learning and practice 🧠"
+            }
+        }
+    
+    def say_hi(self):
+        print("Thanks for visiting! Let's connect and build something amazing together! 🚀")
 
+me = MohamedFaisal()
+me.say_hi()
+```
+
+<div align="center">
+
+### 💡 *"Passionate about transforming theoretical AI concepts into practical, real-world solutions"*
+
+</div>
 
 ---
 
