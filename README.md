@@ -1,19 +1,20 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,18,20,24,27&height=200&section=header&text=Mohamed%20Faisal%20Salem&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI%20Engineer%20%7C%20Deep%20Learning%20Enthusiast%20%7C%20Problem%20Solver&descSize=18&descAlignY=55" width="100%"/>
+<!-- Capsule Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,18,20,24,27&height=200&section=header&text=Mohamed%20Faisal%20Salem&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35" width="100%"/>
+
+<!-- Typing Roles -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=AI+%2F+ML+Enthusiast;Deep+Learning+Learner;Kaggle+Competitor;Problem+Solver;Python+%26+C%2B%2B;Exploring+NLP+and+CV" />
 
 <!-- Typing Animation with Updated Text -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=false&width=800&height=60&lines=🎓+FCAI+Student+%7C+Cairo+University;🤖+AI+%2F+ML+Engineer+in+the+Making;🧠+Deep+Learning+%26+NLP+Enthusiast;💻+Turning+Ideas+into+Intelligent+Systems;🚀+Top+4%25+in+Kaggle+Competitions;📱+Android+Developer+%7C+230%2B+Reciters+App" alt="Typing SVG" />
-</a>
 
-<br/>
+<br/><br/>
 
 <!-- Animated GIF -->
 <img src="typing.gif" width="600" alt="coding animation" style="border-radius: 15px;"/>
 
 <br/><br/>
+
 
 <!-- Social Media Badges with Gradient Colors -->
 <p align="center">
