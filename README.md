@@ -178,6 +178,16 @@ me.say_hi()
   <img src="./achievements.svg" width="90%" alt="Achievements"/>
 </p>
 
+
+
+---
+## 📊 My GitHub Journey
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mohamed-faisal-salem&show_icons=true&theme=tokyonight&title_color=00f2ff&icon_color=00f2ff&text_color=ffffff&bg_color=0a0f24)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamed-faisal-salem&layout=compact&theme=tokyonight&title_color=00f2ff&text_color=ffffff&bg_color=0a0f24)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mohamed-faisal-salem&theme=tokyonight&background=0a0f24&ring=00f2ff&fire=00f2ff&currStreakLabel=00f2ff)
 ---
 
 ![GitHub Stats](stats.svg)
