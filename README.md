@@ -205,16 +205,15 @@ me.say_hi()
 
 ### 🎯 Core Statistics
 
-<p align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=mohamed-faisal-salem&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00f2ff&icon_color=bd00ff&text_color=ffffff&ring_color=00f2ff&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=mohamed-faisal-salem&theme=tokyonight&hide_border=true&background=0D1117&stroke=00f2ff&ring=00f2ff&fire=ff6b6b&currStreakLabel=00f2ff&sideNums=ffffff&sideLabels=ffffff" alt="GitHub Streak"/>
-</p>
+<div align="center">
+<img width="49%" src="https://githubreadmestreakstats-kappa.vercel.app/?user=mohamed-faisal-salem&theme=dark" alt="GitHub Streak"/>
+</div>
+<div align="center">
+<img alt="Top Languages" height="220px" src="https://githubstats-one.vercel.app/api/top-langs/?username=mohamed-faisal-salem&langs_count=12&count_private=true&layout=compact&theme=dark&hide_border=false&bg_color=000000"/>
+<img width="49%" src="https://githubstats-one.vercel.app/api?username=mohamed-faisal-salem&show_icons=true&show=prs_merged,prs_merged_percentage&show_issues=true&count_private=true&theme=dark&hide_border=false&bg_color=000000&icon_color=FF8C00" alt="GitHub Stats"/>
 
-### 💻 Language Distribution
+</div>
 
-<p align="center">
-<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamed-faisal-salem&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00f2ff&text_color=ffffff&langs_count=8&hide=jupyter%20notebook" alt="Top Languages"/>
-</p>
 
 ### 📈 Contribution Timeline
 
