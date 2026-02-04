@@ -215,29 +215,19 @@ me.say_hi()
 </div>
 
 
-### 📈 Contribution Timeline
-
-<p align="center">
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=mohamed-faisal-salem&custom_title=12%20Month%20Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00f2ff&line=bd00ff&point=ffffff&area=true&area_color=00f2ff&height=280" alt="Contribution Graph"/>
-</p>
-
-### 🏆 Achievement Showcase
-
-<p align="center">
-<img width="98%" src="https://github-profile-trophy.vercel.app/?username=mohamed-faisal-salem&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&title=MultiLanguage,Commits,Experience,PullRequest,Reviews,Stars,Followers" alt="GitHub Trophies"/>
-</p>
 
 ### 📊 Detailed Metrics
 
-<p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohamed-faisal-salem&theme=github_dark" width="95%" alt="Profile Summary"/>
-</p>
+<div align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohamed-faisal-salem&theme=github_dark&bg_color=000000" width="95%" alt="Profile Summary"/>
+</div>
 
-<p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohamed-faisal-salem&theme=github_dark" width="30%" alt="Repos per Language"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mohamed-faisal-salem&theme=github_dark" width="30%" alt="Most Commit Language"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mohamed-faisal-salem&theme=github_dark&utcOffset=2" width="30%" alt="Productive Time"/>
-</p>
+<div align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohamed-faisal-salem&theme=github_dark&bg_color=000000" width="30%" alt="Repos per Language"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mohamed-faisal-salem&theme=github_dark&bg_color=000000" width="30%" alt="Most Commit Language"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mohamed-faisal-salem&theme=github_dark&bg_color=000000&utcOffset=2" width="30%" alt="Productive Time"/>
+</div>
+
 
 </div>
 
