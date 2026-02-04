@@ -1,37 +1,112 @@
-<svg width="800" height="160" viewBox="0 0 800 160" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="achievementGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#20BEFF"/>
-      <stop offset="100%" stop-color="#4DC8FF"/>
+    <!-- Gradients -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FFA500"/>
+      <stop offset="100%" stop-color="#FF8C00"/>
     </linearGradient>
     
-    <linearGradient id="achievementGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#bd00ff"/>
-      <stop offset="100%" stop-color="#d966ff"/>
+    <linearGradient id="platinumGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8E8E8"/>
+      <stop offset="50%" stop-color="#C0C0C0"/>
+      <stop offset="100%" stop-color="#A8A8A8"/>
     </linearGradient>
+    
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+
+    <!-- Filters for depth -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.3"/>
+    </filter>
   </defs>
   
-  <!-- Title -->
-  <text x="400" y="30" text-anchor="middle" fill="#00f2ff" font-family="Arial" font-size="24" font-weight="bold">
-    🏆 Competitive Achievements
-    
-  </text>
-  
-  <!-- Achievement 1 -->
-  <g transform="translate(250, 95)">
-    <rect x="-90" y="-45" width="180" height="90" rx="18" fill="rgba(32,190,255,0.1)" stroke="url(#achievementGradient)" stroke-width="2"/>
-    <text x="0" y="-10" text-anchor="middle" fill="#20BEFF" font-family="Arial" font-size="16" font-weight="bold">Kaggle Competition</text>
-    <text x="0" y="10" text-anchor="middle" fill="white" font-family="Arial" font-size="14">House Prices Prediction</text>
-    <rect x="-35" y="30" width="70" height="28" rx="14" fill="url(#achievementGradient)"/>
-    <text x="0" y="50" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">Top 4%</text>
+  <!-- Main Title with Elegant Style -->
+  <g transform="translate(400, 45)">
+    <text x="0" y="0" text-anchor="middle" fill="url(#goldGradient)" 
+          font-family="'Segoe UI', Arial, sans-serif" font-size="32" 
+          font-weight="800" letter-spacing="2" filter="url(#glow)">
+      COMPETITIVE ACHIEVEMENTS
+    </text>
+    <line x1="-180" y1="15" x2="180" y2="15" stroke="url(#goldGradient)" 
+          stroke-width="2" opacity="0.6"/>
   </g>
   
-  <!-- Achievement 2 -->
-  <g transform="translate(550, 95)">
-    <rect x="-90" y="-45" width="180" height="90" rx="18" fill="rgba(189,0,255,0.1)" stroke="url(#achievementGradient2)" stroke-width="2"/>
-    <text x="0" y="-10" text-anchor="middle" fill="#bd00ff" font-family="Arial" font-size="16" font-weight="bold">Kaggle Competition</text>
-    <text x="0" y="10" text-anchor="middle" fill="white" font-family="Arial" font-size="14">Titanic ML</text>
-    <rect x="-35" y="30" width="70" height="28" rx="14" fill="url(#achievementGradient2)"/>
-    <text x="0" y="50" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">Top 26%</text>
+  <!-- Achievement Card 1 - Premium Design -->
+  <g transform="translate(200, 130)">
+    <!-- Card Background with Gradient Border Effect -->
+    <rect x="-130" y="-60" width="260" height="110" rx="12" 
+          fill="rgba(14, 165, 233, 0.08)" 
+          stroke="url(#blueGradient)" stroke-width="2.5" 
+          filter="url(#shadow)"/>
+    
+    <!-- Top Badge -->
+    <rect x="-40" y="-75" width="80" height="30" rx="15" 
+          fill="url(#blueGradient)" filter="url(#shadow)"/>
+    <text x="0" y="-53" text-anchor="middle" fill="white" 
+          font-family="'Segoe UI', Arial, sans-serif" font-size="13" 
+          font-weight="700">KAGGLE</text>
+    
+    <!-- Trophy Icon -->
+    <text x="0" y="-25" text-anchor="middle" font-size="28" filter="url(#glow)">🏆</text>
+    
+    <!-- Competition Name -->
+    <text x="0" y="10" text-anchor="middle" fill="#0EA5E9" 
+          font-family="'Segoe UI', Arial, sans-serif" font-size="17" 
+          font-weight="700">House Prices Prediction</text>
+    
+    <!-- Rank Badge -->
+    <ellipse cx="0" cy="38" rx="50" ry="22" fill="url(#blueGradient)" 
+             filter="url(#shadow)"/>
+    <text x="0" y="44" text-anchor="middle" fill="white" 
+          font-family="'Segoe UI', Arial, sans-serif" font-size="16" 
+          font-weight="800" letter-spacing="1">TOP 4%</text>
+  </g>
+  
+  <!-- Achievement Card 2 - Premium Design -->
+  <g transform="translate(600, 130)">
+    <!-- Card Background with Gradient Border Effect -->
+    <rect x="-130" y="-60" width="260" height="110" rx="12" 
+          fill="rgba(139, 92, 246, 0.08)" 
+          stroke="url(#purpleGradient)" stroke-width="2.5" 
+          filter="url(#shadow)"/>
+    
+    <!-- Top Badge -->
+    <rect x="-40" y="-75" width="80" height="30" rx="15" 
+          fill="url(#purpleGradient)" filter="url(#shadow)"/>
+    <text x="0" y="-53" text-anchor="middle" fill="white" 
+          font-family="'Segoe UI', Arial, sans-serif" font-size="13" 
+          font-weight="700">KAGGLE</text>
+    
+    <!-- Medal Icon -->
+    <text x="0" y="-25" text-anchor="middle" font-size="28" filter="url(#glow)">🥇</text>
+    
+    <!-- Competition Name -->
+    <text x="0" y="10" text-anchor="middle" fill="#8B5CF6" 
+          font-family="'Segoe UI', Arial, sans-serif" font-size="17" 
+          font-weight="700">Titanic ML Challenge</text>
+    
+    <!-- Rank Badge -->
+    <ellipse cx="0" cy="38" rx="50" ry="22" fill="url(#purpleGradient)" 
+             filter="url(#shadow)"/>
+    <text x="0" y="44" text-anchor="middle" fill="white" 
+          font-family="'Segoe UI', Arial, sans-serif" font-size="16" 
+          font-weight="800" letter-spacing="1">TOP 9%</text>
   </g>
 </svg>
