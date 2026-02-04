@@ -173,7 +173,7 @@ me.say_hi()
 
 ---
 
-
+## 🥇 Competitive Achivements
 <p align="center">
   <img src="./achievements.svg" width="90%" alt="Achievements"/>
 </p>
@@ -200,8 +200,6 @@ me.say_hi()
 </td>
 </tr>
 </table>
-
----
 
 ### 🎯 Core Statistics
 
