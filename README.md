@@ -181,53 +181,79 @@ me.say_hi()
 
 
 ---
-## 📊 My GitHub Journey
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mohamed-faisal-salem&show_icons=true&theme=tokyonight&title_color=00f2ff&icon_color=00f2ff&text_color=ffffff&bg_color=0a0f24)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamed-faisal-salem&layout=compact&theme=tokyonight&title_color=00f2ff&text_color=ffffff&bg_color=0a0f24)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mohamed-faisal-salem&theme=tokyonight&background=0a0f24&ring=00f2ff&fire=00f2ff&currStreakLabel=00f2ff)
----
-
-![GitHub Stats](stats.svg)
-
-
-
----
-
-<h2 align="center">ðŸš€ Featured Deployment</h2>
+## 📊 GitHub Analytics Dashboard
 
 <div align="center">
+
+<!-- Header Stats -->
 <table>
-  <tr>
-    <td align="center" width="60%">
-      <h3 style="color:#00f2ff">ðŸ“– Telawat (Qurâ€™an Recitation App)</h3>
-      <p>A sophisticated Android application serving <strong>230+ Reciters</strong> with an elegant UI.</p>
-      <p>
-        <code>Java</code> <code>XML</code> <code>Firebase</code> <code>Offline Support</code>
-      </p>
-      <br/>
-      <a href="https://github.com/mohamed-faisal-salem/Telawat.git">
-        <img src="https://img.shields.io/badge/View_Source_Code-000000?style=for-the-badge&logo=github&logoColor=white" />
-      </a>
-    </td>
-    <td align="center" width="40%">
-      <img src="project-app.png" alt="Islamic App" width="180" style="border-radius:15px; box-shadow: 0px 0px 15px rgba(0, 242, 255, 0.2);"/>
-    </td>
-  </tr>
+<tr>
+<td align="center" width="33%">
+<img src="https://img.shields.io/github/followers/mohamed-faisal-salem?label=Followers&style=for-the-badge&color=00f2ff&labelColor=0D1117&logo=github" alt="Followers"/>
+<br/>
+</td>
+<td align="center" width="34%">
+<img src="https://img.shields.io/badge/Focus-AI%20%26%20ML-00f2ff?style=for-the-badge&labelColor=0D1117" alt="Focus"/>
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/Status-Active-4CAF50?style=for-the-badge&labelColor=0D1117&logo=statuspage" alt="Status"/>
+</td>
+</tr>
 </table>
+
+---
+
+### 🎯 Core Statistics
+
+<p align="center">
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=mohamed-faisal-salem&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00f2ff&icon_color=bd00ff&text_color=ffffff&ring_color=00f2ff&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=mohamed-faisal-salem&theme=tokyonight&hide_border=true&background=0D1117&stroke=00f2ff&ring=00f2ff&fire=ff6b6b&currStreakLabel=00f2ff&sideNums=ffffff&sideLabels=ffffff" alt="GitHub Streak"/>
+</p>
+
+### 💻 Language Distribution
+
+<p align="center">
+<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamed-faisal-salem&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00f2ff&text_color=ffffff&langs_count=8&hide=jupyter%20notebook" alt="Top Languages"/>
+</p>
+
+### 📈 Contribution Timeline
+
+<p align="center">
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=mohamed-faisal-salem&custom_title=12%20Month%20Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00f2ff&line=bd00ff&point=ffffff&area=true&area_color=00f2ff&height=280" alt="Contribution Graph"/>
+</p>
+
+### 🏆 Achievement Showcase
+
+<p align="center">
+<img width="98%" src="https://github-profile-trophy.vercel.app/?username=mohamed-faisal-salem&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&title=MultiLanguage,Commits,Experience,PullRequest,Reviews,Stars,Followers" alt="GitHub Trophies"/>
+</p>
+
+### 📊 Detailed Metrics
+
+<p align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohamed-faisal-salem&theme=github_dark" width="95%" alt="Profile Summary"/>
+</p>
+
+<p align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohamed-faisal-salem&theme=github_dark" width="30%" alt="Repos per Language"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mohamed-faisal-salem&theme=github_dark" width="30%" alt="Most Commit Language"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mohamed-faisal-salem&theme=github_dark&utcOffset=2" width="30%" alt="Productive Time"/>
+</p>
+
 </div>
 
 ---
 
-<h2 align="center">ðŸ“œ Certified Intelligence</h2>
+<h2 align="center">Certified Intelligence</h2>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/AI%20For%20Everyone-ITI-blueviolet?style=flat-square&logo=c"/>
   <img src="https://img.shields.io/badge/ML%20with%20Python-IBM-003366?style=flat-square&logo=ibm"/>
   <img src="https://img.shields.io/badge/Deep%20Learning-DeepLearning.AI-FF9900?style=flat-square&logo=coursera"/>
+  <img src="https://img.shields.io/badge/Python-Kaggle-3776AB?style=flat-square&logo=python"/>
+  <img src="https://img.shields.io/badge/Pandas-Kaggle-150458?style=flat-square&logo=pandas"/>
+  <img src="https://img.shields.io/badge/AI%20For%20Everyone-ITI-blueviolet?style=flat-square&logo=c"/>
 </div>
+
 
 <br/>
 <br/>
