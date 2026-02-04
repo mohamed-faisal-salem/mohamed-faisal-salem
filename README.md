@@ -74,8 +74,8 @@ class MohamedFaisal:
     def achievements(self):
         return {
             "kaggle": {
-                "house_prices": "Top 4% 🏆",
-                "titanic": "Top 9% 🚢"
+                "house_prices": "Top 4%",
+                "titanic": "Top 9%"
             },
             "projects": {
                 "ml_models": "Implemented multiple ML/DL models for learning and practice 🧠"
@@ -96,6 +96,50 @@ me.say_hi()
 </div>
 
 ---
+
+## 🛠️ Skills / Tech Stack
+
+<div align="center">
+
+### **Languages & Frameworks**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,kotlin,c" alt="Programming Languages"/>
+</p>
+
+### **AI/ML & Data Science**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn" alt="AI Frameworks"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=plotly&logoColor=white" alt="Matplotlib"/>
+  <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn"/>
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn"/>
+</p>
+
+### **Mobile Development**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=androidstudio,gradle" alt="Android"/>
+  <img src="https://img.shields.io/badge/XML-FF6600?style=for-the-badge&logo=xml&logoColor=white" alt="XML"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
+</p>
+
+### **Tools & Technologies**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,linux" alt="Tools"/>
+  <img src="https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" alt="Anaconda"/>
+  <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Google Colab"/>
+</p>
+
+</div>
+
+---
+
+
+
 
 ![GitHub Stats](tech-stack.svg)
 
