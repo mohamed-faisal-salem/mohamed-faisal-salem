@@ -17,15 +17,7 @@
     </filter>
   </defs>
 
-  <!-- Main Title -->
-  <g transform="translate(400, 45)">
-    <text x="0" y="0" text-anchor="middle" fill="url(#techGradient)"
-          font-family="'Segoe UI', Arial, sans-serif" font-size="30" font-weight="600" letter-spacing="1">
-      COMPETITIVE ACHIEVEMENTS
-    </text>
-    <line x1="-180" y1="15" x2="180" y2="15" stroke="url(#techGradient)"
-          stroke-width="1.5" opacity="0.35"/>
-  </g>
+
 
   <!-- Achievement Card 1 -->
   <g transform="translate(200, 140)">
@@ -81,3 +73,4 @@
           font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="600">TOP 9%</text>
   </g>
 </svg>
+
